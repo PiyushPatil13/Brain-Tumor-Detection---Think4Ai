@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Detection | ASAPNEUROSCAN</title>
+    <link rel="stylesheet" href="styles/detection.css">
+    <link rel="stylesheet" href="styles/utility.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="logoAndName">
+            <div class="logo"><img src="assets/images/brain_cartoon-removebg-preview.png" alt=""></div>
+            <div class="Name">ASAPNEUROSCAN</div>
+        </div>
+
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="cross">
+            <img id="cross" src="assets/images/cancel-01-Stroke-Rounded.png" alt="cross1">
+        </div>
+        <div class="buttons">
+            <div><a href="index.html">Home</a></div>
+            <div><a href="about.html">About</a></div>
+        </div>
+    </nav>
+
+    <!-- UPLOAD + ACCURACY -->
+    <div class="main-content">
+        <div class="row">
+            <div class="box upload-box">
+                <h3>Upload MRI Image</h3>
+                <input type="file" id="fileInput" hidden>
+                <label for="fileInput" class="upload-btn">Upload MRI</label>
+                <button id="upload">Upload</button>
+            </div>
+
+            <div class="box accuracy-box">
+                <h3>Accuracy and Disease Percentage</h3>
+                <p>Accuracy: 95%</p>
+                <p>Prediction will appear here</p>
+            </div>
+        </div>
+
+        <!-- GRAPHS -->
+        <div class="box graphs-box">
+            <h2>Graphs and Analysis</h2>
+            <p>Graphs will be displayed here</p>
+        </div>
+
+        <!-- CONCLUSION -->
+        <div class="box conclusion-box">
+            <h3>Conclusion</h3>
+            <p>
+                This system detects brain tumors using MRI images
+                and Machine Learning techniques to assist doctors.
+            </p>
+        </div>
+    </div>
+    <section class="content">
+        <h2>Types of Brain Tumors</h2>
+
+        <div class="card">
+            <h3>Glioma</h3>
+            <p>A tumor arising from glial cells in the brain.</p>
+        </div>
+
+        <div class="card">
+            <h3>Meningioma</h3>
+            <p>A tumor that forms on membranes covering the brain.</p>
+        </div>
+
+        <div class="card">
+            <h3>Pituitary Tumor</h3>
+            <p>A tumor occurring in the pituitary gland.</p>
+        </div>
+
+        <div class="card">
+            <h3>No Tumor</h3>
+            <p>Healthy brain MRI with no abnormalities.</p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <div class="bottom">
+        <div class="footer-left">
+            <p>Email : asapneuroscan123@gmail.com</p>
+            <p>Facebook : </p>
+            <p>Discord : </p>
+            <p>Instagram : asap_neuroscan</p>
+        </div>
+        <div class="footer-right">
+
+            <p>© 2026 ASAP NeuroScan | Student Research Project</p>
+        </div>
+    </div>
+    <script src="scripts/detection.js"></script>
+
+</body>
+
+</html>

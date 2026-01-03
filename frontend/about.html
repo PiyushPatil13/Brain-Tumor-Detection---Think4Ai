@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | ASAPNEUROSCAN</title>
+
+    <link rel="stylesheet" href="styles/about.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logoAndName">
+            <div class="logo"><img src="assets/images/brain_cartoon-removebg-preview.png" alt=""></div>
+            <div class="Name">ASAPNEUROSCAN</div>
+        </div>
+
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="cross">
+            <img id="cross" src="assets/images/cancel-01-Stroke-Rounded.png" alt="cross1">
+        </div>
+        <div class="buttons">
+            <div><a href="index.html">Home</a></div>
+            <div><a href="about.html">About</a></div>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main class="about-container">
+
+        <section class="about-section">
+            <h2>What is ASAP NeuroScan?</h2>
+            <p>
+                ASAP NeuroScan is a web-based application designed to assist in the
+                detection of brain tumours from MRI scans using deep learning.
+                The system analyzes uploaded MRI images and provides a predicted
+                tumour class along with a confidence score.
+            </p>
+        </section>
+
+        <section class="about-section">
+            <h2>Why We Built This</h2>
+            <p>
+                Brain tumour diagnosis often requires expert interpretation and
+                can be time-consuming. This project explores how artificial
+                intelligence can support medical analysis by providing faster,
+                visual, and explainable insights in academic and research settings.
+            </p>
+        </section>
+
+        <section class="about-section">
+            <h2>How It Works</h2>
+            <ul>
+                <li>User uploads an MRI image</li>
+                <li>The image is processed on the backend using a trained model</li>
+                <li>A tumour prediction with confidence is generated</li>
+                <li>Grad-CAM visualization highlights influential regions</li>
+            </ul>
+        </section>
+
+        <section class="about-section">
+            <h2>Understanding the Output</h2>
+            <p>
+                The confidence score indicates how certain the model is about
+                its prediction. The Grad-CAM image helps visualize which areas
+                of the MRI scan influenced the model’s decision, improving
+                transparency and interpretability.
+            </p>
+        </section>
+        <section class="about-section">
+            <h2>Our Team</h2>
+            <p>
+                This project is developed by undergraduate engineering students
+                as part of an academic initiative, combining frontend development,
+                backend systems, and machine learning research.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <div class="bottom">
+        <div class="footer-left">
+            <p>Email : asapneuroscan123@gmail.com</p>
+            <p>Facebook : </p>
+            <p>Discord : </p>
+            <p>Instagram : asap_neuroscan</p>
+        </div>
+        <div class="footer-right">
+            
+            <p>© 2026 ASAP NeuroScan | Student Research Project</p>
+        </div>
+    </div>
+
+    <script src="scripts/about.js"></script>
+</body>
+</html>

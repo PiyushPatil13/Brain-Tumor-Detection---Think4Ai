@@ -1,24 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>asapneuroscan</title>
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/utility.css">
+    <title>Home | ASAPNEUROSCAN</title>
 </head>
+
 <body>
     <nav>
-        <div class="nav">
         <div class="logoAndName">
-            <span><img src="assets/images/brain cartoon.jpg" alt="logo"></span>
-            <span>ASAPNEUROSCAN</span>
+            <div class="logo"><img src="assets/images/brain_cartoon-removebg-preview.png" alt=""></div>
+            <div class="Name">ASAPNEUROSCAN</div>
         </div>
-        <div class="rest">
-            <span><button>Home</button></span>
-            <span><button>Contact</button></span>
-            <span><button>About</button></span>
+
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
+        <div class="cross">
+            <img id="cross" src="assets/images/cancel-01-Stroke-Rounded.png" alt="cross1">
+        </div>
+        <div class="buttons">
+            <div><a href="index.html">Home</a></div>
+            <div><a href="about.html">About</a></div>
         </div>
     </nav>
+    <div class="mainContent">
+        <div class="left">
+            <div class="text p-1">
+                <span>Brain</span>
+                <span>Tumour</span>
+                <span>Detection</span>
+                <div class="start">
+                    <a href="detection.html">Start Detection</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="right">
+            <img class="p-1" src="assets/images/brain-removebg-preview.png" alt="">
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="footer-left">
+            <p>Email : asapneuroscan123@gmail.com</p>
+            <p>Facebook : </p>
+            <p>Discord : </p>
+            <p>Instagram : asap_neuroscan</p>
+        </div>
+        <div class="footer-right">
+            
+            <p>© 2026 ASAP NeuroScan | Student Research Project</p>
+        </div>
+    </div>
+    <script src="scripts/index.js"></script>
 </body>
+
 </html>
