@@ -1,7 +1,8 @@
 const fileInput = document.getElementById("fileInput")
 const button = document.getElementById("upload")
+const baseUrl = "http://localhost:3000/"
 async function sendImg(formData){
-    let x = await fetch("https://jsonplaceholder.typicode.com/todos/1",{
+    let x = await fetch(baseUrl + "detection",{
         method: "POST",
         body: formData
     })

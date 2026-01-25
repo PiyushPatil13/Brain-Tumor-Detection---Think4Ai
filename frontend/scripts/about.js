@@ -1,3 +1,4 @@
+const baseUrl = 'http://localhost:3000/'
 async function main() {
     // Simple fade-in on load
     window.addEventListener("load", () => {
@@ -24,5 +25,6 @@ async function main() {
         menu.classList.remove("open");
         cross.style.display = "none"
     })
+    
 }
 main()

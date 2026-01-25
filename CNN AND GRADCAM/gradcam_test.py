@@ -10,7 +10,7 @@ model_wrapper = get_model()
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-img_path = os.path.join(BASE_DIR, r"C:\Users\Lenovo\Downloads\meningioma.jpg")
+img_path = os.path.join(BASE_DIR, r"C:\Users\arnav\OneDrive\Desktop\arnav\Inheritance-Full_project\CNN AND GRADCAM\uploads\7c1cc8e06d054b1db44d08c6e28e93da")
 # Load test image
 with open(img_path, "rb") as f:
     image_bytes = f.read()
