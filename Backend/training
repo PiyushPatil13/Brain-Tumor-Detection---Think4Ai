@@ -35,13 +35,13 @@ class BrainTumorDataset(Dataset):
         if any(x in name_lower for x in ['notumor', 'no_tumor', 'normal', 'healthy']):
             return 'no_tumor'
         # Check for glioma
-        elif 'glioma' in name_lower:
+        if any(x in name_lower for x in ['Glioma', 'Glioma_tumor', 'Glioma_Tumor', 'glioma_Tumor','glioma_tumor']):
             return 'glioma'
         # Check for meningioma
-        elif 'meningioma' in name_lower:
+        if any(x in name_lower for x in ['Meningioma', 'Meningioma_tumor', 'Meningioma_Tumor', 'meningioma_Tumor','meningioma_tumor']):
             return 'meningioma'
         # Check for pituitary
-        elif 'pituitary' in name_lower:
+        elif any(x in name_lower for x in ['Pituitary', 'pituitary_tumor', 'Pituitary_Tumor', 'pituitary_Tumor','pituitary_tumor']):
             return 'pituitary'
         else:
             return None
