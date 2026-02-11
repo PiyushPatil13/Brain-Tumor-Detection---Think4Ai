@@ -9,6 +9,12 @@ async function sendImg(formData){
     const data =  await x.json()
     console.log(data);    
 }
+async function getResults() {
+    const res = await fetch("http://localhost:3000/detection")
+    const data = await res.json()
+    console.log(data)
+}
+
 async function main() {
 
     const hamburger = document.getElementById("hamburger");
@@ -38,5 +44,8 @@ async function main() {
             console.log("Error:",err)
         }
     })
+    let results = await getResults()
+    console.log(results)
+
 }
 main()
