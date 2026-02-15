@@ -1,5 +1,4 @@
-# Brain-Tumor-Detection---Think4Ai
-Repo for brain tumor codes
+
 
 # Brain Tumor Detection - Think4AI
 
