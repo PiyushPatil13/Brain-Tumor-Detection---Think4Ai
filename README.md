@@ -54,4 +54,4 @@ Contributions are welcome! Fork the repository, create a feature branch, and sub
 
 2. Inspired by research in medical image analysis and deep learning for healthcare, including papers on CNN-based tumor detection.
 
-3. Thanks to the open-source community for libraries like TensorFlow and Flask.
+3. Thanks to the open-source community for libraries like Pytorch and Fast.
